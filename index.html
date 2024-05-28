@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Consulta CEP</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-group">
+            <input type="text" id="cep-input" placeholder="Digite o CEP">
+            <button id="consultar-btn">Consultar CEP</button>
+        </div>
+        <div class="result" id="result">
+        </div>
+        <button id="salvar-btn" disabled>Salvar CEP</button>
+        <div class="saved-addresses" id="saved-addresses">
+            <h3>CEPs Salvos</h3>
+            <table id="saved-table">
+                <thead>
+                    <tr>
+                        <th>CEP</th>
+                        <th>Logradouro</th>
+                        <th>Estado</th>
+                        <th>Cidade</th>
+                        <th>Bairro</th>
+                        <th>DDD</th>
+                        <th>IBGE</th>
+                        <th>Siafi</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
